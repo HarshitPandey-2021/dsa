@@ -51,6 +51,32 @@ START_MARKER = "<!-- DASHBOARD:START -->"
 END_MARKER = "<!-- DASHBOARD:END -->"
 
 # ----------------------------------------------------------------------
+# Encoding-safe file reading
+# ----------------------------------------------------------------------
+# Some editors (Notepad on Windows especially) save .md files as
+# UTF-16 instead of UTF-8, which makes plain open(path).read() crash.
+# This tries the common encodings in order until one works, so a
+# mis-saved file never breaks the whole Action run.
+
+ENCODINGS_TO_TRY = ["utf-8", "utf-8-sig", "utf-16", "cp1252"]
+
+
+def safe_read(path):
+    for enc in ENCODINGS_TO_TRY:
+        try:
+            with open(path, "r", encoding=enc) as f:
+                return f.read()
+        except (UnicodeError, UnicodeDecodeError):
+            continue
+    # Last resort: read raw bytes and drop anything that can't decode,
+    # so the run still succeeds instead of crashing.
+    with open(path, "rb") as f:
+        raw = f.read()
+    print(f"⚠️  Warning: {path} has an unusual encoding, some characters may be dropped.")
+    return raw.decode("utf-8", errors="ignore")
+
+
+# ----------------------------------------------------------------------
 # STEP 1 — Collect every note's frontmatter
 # ----------------------------------------------------------------------
 
@@ -78,8 +104,7 @@ def collect_notes(root="."):
             if not fname.endswith(".md") or fname.upper() == "README.MD":
                 continue
             fpath = os.path.join(topic_path, fname)
-            with open(fpath, "r", encoding="utf-8") as f:
-                text = f.read()
+            text = safe_read(fpath)
             meta, _ = parse_frontmatter(text)
             if not meta:
                 # No frontmatter yet — still count it under its folder
@@ -209,8 +234,7 @@ def update_readme(dashboard_text):
     if not os.path.exists(README_PATH):
         content = f"# 🚀 FAANG DSA Journey\n\n{START_MARKER}\n{END_MARKER}\n"
     else:
-        with open(README_PATH, "r", encoding="utf-8") as f:
-            content = f.read()
+        content = safe_read(README_PATH)
 
     if START_MARKER not in content or END_MARKER not in content:
         # Markers missing — append a dashboard section at the end
