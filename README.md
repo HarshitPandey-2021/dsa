@@ -13,8 +13,8 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 📊 Progress
 
-**Arrays** — 1 / 40
-`░░░░░░░░░░░░░░░░░░░░ 2%`
+**Arrays** — 2 / 40
+`█░░░░░░░░░░░░░░░░░░░ 5%`
 
 **Sorting** — 0 / 15
 `░░░░░░░░░░░░░░░░░░░░ 0%`
@@ -47,22 +47,22 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 🎯 Overall Progress
 
-**1 / 218 problems solved**
+**2 / 218 problems solved**
 
-`░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%`
+`░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1%`
 
 ---
 
 ## 🔥 Current Streak
 
-**1 day**
+**2 days**
 
 ---
 
 ## 🧠 Patterns Learned
 
 - ✅ Binary Search
-- ⬜ Two Pointers
+- ✅ Two Pointers
 - ⬜ Sliding Window
 - ⬜ Prefix Sum
 - ⬜ Greedy
@@ -74,18 +74,18 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 📈 Difficulty Breakdown
 
-Easy: `███████████████ 100%` (1)
-Medium: `░░░░░░░░░░░░░░░ 0%` (0)
+Easy: `████████░░░░░░░ 50%` (1)
+Medium: `████████░░░░░░░ 50%` (1)
 Hard: `░░░░░░░░░░░░░░░ 0%` (0)
 
 ---
 
 ## 📅 Latest Problem
 
-✅ **Linear Search & Binary Search** (2026-07-29)
+✅ **Union of Two Sorted Arrays** (2026-07-30)
 
 ---
 
-*Last updated automatically: 2026-07-29*
+*Last updated automatically: 2026-07-30*
 
 <!-- DASHBOARD:END -->
