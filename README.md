@@ -13,8 +13,8 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 📊 Progress
 
-**Arrays** — 2 / 40
-`█░░░░░░░░░░░░░░░░░░░ 5%`
+**Arrays** — 3 / 40
+`██░░░░░░░░░░░░░░░░░░ 8%`
 
 **Sorting** — 0 / 15
 `░░░░░░░░░░░░░░░░░░░░ 0%`
@@ -47,7 +47,7 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 🎯 Overall Progress
 
-**2 / 218 problems solved**
+**3 / 218 problems solved**
 
 `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1%`
 
@@ -55,7 +55,7 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 🔥 Current Streak
 
-**2 days**
+**3 days**
 
 ---
 
@@ -74,18 +74,18 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 📈 Difficulty Breakdown
 
-Easy: `████████░░░░░░░ 50%` (1)
-Medium: `████████░░░░░░░ 50%` (1)
+Easy: `██████████░░░░░ 67%` (2)
+Medium: `█████░░░░░░░░░░ 33%` (1)
 Hard: `░░░░░░░░░░░░░░░ 0%` (0)
 
 ---
 
 ## 📅 Latest Problem
 
-✅ **Union of Two Sorted Arrays** (2026-07-30)
+✅ **Missing Number** (2026-07-31)
 
 ---
 
-*Last updated automatically: 2026-07-30*
+*Last updated automatically: 2026-07-31*
 
 <!-- DASHBOARD:END -->
