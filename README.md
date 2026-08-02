@@ -74,7 +74,7 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 📈 Difficulty Breakdown
 
-Easy: `███████████░░░░ 75%` (3)
+Easy: `███████████████ 100%` (4)
 Medium: `████░░░░░░░░░░░ 25%` (1)
 Hard: `░░░░░░░░░░░░░░░ 0%` (0)
 
@@ -82,7 +82,7 @@ Hard: `░░░░░░░░░░░░░░░ 0%` (0)
 
 ## 📅 Latest Problem
 
-✅ **Max Consecutive Ones** (2026-08-01)
+✅ **Single Number** (2026-08-01)
 
 ---
 
