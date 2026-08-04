@@ -33,7 +33,7 @@ My initial thought was:
 
 I first thought about sorting the array, but realized **sorting isn't necessary**.
 
-
+Then I considered:
 
 ```python
 number not in nums
