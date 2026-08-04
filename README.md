@@ -13,8 +13,8 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 📊 Progress
 
-**Arrays** — 4 / 40
-`██░░░░░░░░░░░░░░░░░░ 10%`
+**Arrays** — 5 / 40
+`██░░░░░░░░░░░░░░░░░░ 12%`
 
 **Sorting** — 0 / 15
 `░░░░░░░░░░░░░░░░░░░░ 0%`
@@ -47,7 +47,7 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 🎯 Overall Progress
 
-**4 / 218 problems solved**
+**5 / 218 problems solved**
 
 `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2%`
 
@@ -55,7 +55,7 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 🔥 Current Streak
 
-**6 days**
+**7 days**
 
 ---
 
@@ -75,17 +75,17 @@ Everything below this line is generated automatically by `scripts/update_readme.
 ## 📈 Difficulty Breakdown
 
 Easy: `███████████████ 100%` (5)
-Medium: `████████░░░░░░░ 50%` (2)
+Medium: `█████████░░░░░░ 60%` (3)
 Hard: `░░░░░░░░░░░░░░░ 0%` (0)
 
 ---
 
 ## 📅 Latest Problem
 
-✅ **Two Sum** (2026-08-03)
+✅ **Sort Colors** (2026-08-04)
 
 ---
 
-*Last updated automatically: 2026-08-03*
+*Last updated automatically: 2026-08-04*
 
 <!-- DASHBOARD:END -->
