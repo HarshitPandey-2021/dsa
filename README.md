@@ -74,7 +74,7 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 📈 Difficulty Breakdown
 
-Easy: `███████████████ 100%` (5)
+Easy: `███████████████ 100%` (6)
 Medium: `█████████░░░░░░ 60%` (3)
 Hard: `░░░░░░░░░░░░░░░ 0%` (0)
 
