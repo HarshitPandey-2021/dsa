@@ -55,7 +55,7 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 🔥 Current Streak
 
-**5 days**
+**6 days**
 
 ---
 
@@ -74,7 +74,7 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 📈 Difficulty Breakdown
 
-Easy: `███████████████ 100%` (4)
+Easy: `███████████████ 100%` (5)
 Medium: `████████░░░░░░░ 50%` (2)
 Hard: `░░░░░░░░░░░░░░░ 0%` (0)
 
@@ -82,10 +82,10 @@ Hard: `░░░░░░░░░░░░░░░ 0%` (0)
 
 ## 📅 Latest Problem
 
-✅ **Longest Subarray with Sum K** (2026-08-02)
+✅ **Two Sum** (2026-08-03)
 
 ---
 
-*Last updated automatically: 2026-08-02*
+*Last updated automatically: 2026-08-03*
 
 <!-- DASHBOARD:END -->
