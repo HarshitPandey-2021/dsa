@@ -13,8 +13,8 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 📊 Progress
 
-**Arrays** — 5 / 40
-`██░░░░░░░░░░░░░░░░░░ 12%`
+**Arrays** — 6 / 40
+`███░░░░░░░░░░░░░░░░░ 15%`
 
 **Sorting** — 0 / 15
 `░░░░░░░░░░░░░░░░░░░░ 0%`
@@ -47,9 +47,9 @@ Everything below this line is generated automatically by `scripts/update_readme.
 
 ## 🎯 Overall Progress
 
-**5 / 218 problems solved**
+**6 / 218 problems solved**
 
-`█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2%`
+`█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3%`
 
 ---
 
@@ -75,7 +75,7 @@ Everything below this line is generated automatically by `scripts/update_readme.
 ## 📈 Difficulty Breakdown
 
 Easy: `███████████████ 100%` (6)
-Medium: `█████████░░░░░░ 60%` (3)
+Medium: `████████░░░░░░░ 50%` (3)
 Hard: `░░░░░░░░░░░░░░░ 0%` (0)
 
 ---
@@ -86,6 +86,6 @@ Hard: `░░░░░░░░░░░░░░░ 0%` (0)
 
 ---
 
-*Last updated automatically: 2026-08-04*
+*Last updated automatically: 2026-08-05*
 
 <!-- DASHBOARD:END -->
